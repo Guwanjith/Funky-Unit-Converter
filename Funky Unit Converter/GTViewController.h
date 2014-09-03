@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface GTViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *NumberOfBillsLabel;
+@property (strong, nonatomic) IBOutlet UITextField *NumberOfBillsTextField;
+- (IBAction)ConvertUnits:(UIButton *)sender;
+
 
 @end
